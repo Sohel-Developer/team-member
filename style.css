@@ -98,7 +98,7 @@ nav ul li a {
     font-weight: 400;
 }
 /* Players Style End */
-/* 
+
 .top-blog h1 {
     margin-bottom: 30px;
     color: var(--blue-color);
@@ -113,10 +113,7 @@ nav ul li a {
     display: flex;
     grid-column-gap: 16px;
 }
-.blog-img {
-}
-.blog-info {
-}
+
 .blog-info h2 {
     color: var(--black-color);
     font-size: 20px;
@@ -132,7 +129,7 @@ nav ul li a {
 .blog-info h3 span a {
     text-decoration: none;
     color: var(--blue-color);
-} */
+}
 /* Blog Style End*/
 /* Courses Section Start */
 /* 
