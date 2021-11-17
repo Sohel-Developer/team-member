@@ -1,0 +1,232 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;600;700&display=swap");
+
+/* costume color style  */
+:root {
+    --white-color: #ffffff;
+    --blue-color: #562eff;
+    --gray-color: #9f9f9f;
+    --black-color: #000000;
+    --red-color: #ffe4e8;
+    --red: #ff4a60;
+    --orange-color: #ffc014;
+    --bg-main: #f3f1ff;
+    --bg-second: #ffe4e8;
+}
+
+/* Global css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+hr {
+    margin: 30px 0px;
+}
+body {
+    font-family: "Roboto Slab", serif;
+    background-color: var(--bg-main);
+}
+.container {
+    width: 870px;
+    margin: 0 auto;
+}
+.main-section {
+    margin: 30px 0px;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: var(--white-color);
+}
+
+/* Header Section Style */
+
+header {
+    background-color: var(--blue-color);
+    padding: 15px 0px;
+}
+.navbar {
+    display: flex;
+    padding-left: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo span {
+    margin-left: 15px;
+    color: var(--white-color);
+    font-size: 24px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    margin-right: 20px;
+    list-style: none;
+}
+nav ul li a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+/* Header style End */
+/* Team Member Section Start */
+.main-section {
+    margin: 30px 0px;
+    padding: 30px;
+    background-color: var(--white-color);
+}
+.top-players h1 {
+    margin-bottom: 30px;
+    color: var(--blue-color);
+}
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player {
+    display: flex;
+    align-items: center;
+}
+.player h2 {
+    font-size: 18px;
+    margin-left: 16px;
+    font-weight: 400;
+}
+/* Players Style End */
+/* 
+.top-blog h1 {
+    margin-bottom: 30px;
+    color: var(--blue-color);
+}
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 15px;
+}
+.blog {
+    display: flex;
+    grid-column-gap: 16px;
+}
+.blog-img {
+}
+.blog-info {
+}
+.blog-info h2 {
+    color: var(--black-color);
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+}
+.blog-info h3 {
+    color: var(--gray-color);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+.blog-info h3 span a {
+    text-decoration: none;
+    color: var(--blue-color);
+} */
+/* Blog Style End*/
+/* Courses Section Start */
+/* 
+.top-courses h2 {
+    color: var(--blue-color);
+    font-size: 24px;
+}
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.course {
+    margin-top: 11px;
+    border-radius: 10px;
+    width: 252px;
+    padding: 15px;
+    box-shadow: 0px 5px 24px -17px rgba(0, 0, 0, 0.68);
+}
+
+.course-detail h3 {
+    margin-top: 16px;
+}
+.course-detail h4 {
+    font-size: 15px;
+    margin: 6px 0;
+    margin-bottom: 10px;
+    color: var(--red);
+    font-weight: 300;
+}
+.course-duration {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ratings span {
+    margin: 0px 10px;
+}
+.time {
+    background-color: var(--red-color);
+    padding: 5px 7px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+.time img {
+    margin-right: 5px;
+}
+.time span {
+    font-size: 15;
+    font-weight: 600;
+    color: var(--red);
+} */
+
+/* Responsive Design Mobile */
+/* 
+@media only screen and (max-width: 668px) {
+    .container {
+        width: 100%;
+    }
+    .players {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .courses {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: start;
+    }
+}
+
+@media only screen and (min-width: 668px) and (max-width: 992px) {
+    .container {
+        width: 100%;
+    }
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+
+    .blogs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blog {
+        flex-direction: column;
+    }
+    .blog h2 {
+        margin-top: 20px;
+    }
+    .courses {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} */
