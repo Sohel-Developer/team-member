@@ -79,25 +79,25 @@ nav ul li a {
     padding: 30px;
     background-color: var(--white-color);
 }
-.top-players h1 {
+.top-teams h1 {
     margin-bottom: 30px;
     color: var(--blue-color);
 }
-.players {
+.teams {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 30px;
 }
-.player {
+.team {
     display: flex;
     align-items: center;
 }
-.player h2 {
+.team h2 {
     font-size: 18px;
     margin-left: 16px;
     font-weight: 400;
 }
-/* Players Style End */
+/* teams Style End */
 
 .top-blog h1 {
     margin-bottom: 30px;
@@ -184,6 +184,14 @@ nav ul li a {
     font-weight: 600;
     color: var(--red);
 }
+/* Course style done */
+/* Footer */
+.footer {
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+}
 
 /* Responsive Design Mobile */
 
@@ -191,7 +199,7 @@ nav ul li a {
     .container {
         width: 100%;
     }
-    .players {
+    .teams {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
     }
@@ -209,7 +217,7 @@ nav ul li a {
     .container {
         width: 100%;
     }
-    .players {
+    .teams {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
     }
@@ -227,3 +235,5 @@ nav ul li a {
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
+/* Responsive Done */
