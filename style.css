@@ -132,7 +132,7 @@ nav ul li a {
 }
 /* Blog Style End*/
 /* Courses Section Start */
-/* 
+
 .top-courses h2 {
     color: var(--blue-color);
     font-size: 24px;
@@ -183,10 +183,10 @@ nav ul li a {
     font-size: 15;
     font-weight: 600;
     color: var(--red);
-} */
+}
 
 /* Responsive Design Mobile */
-/* 
+
 @media only screen and (max-width: 668px) {
     .container {
         width: 100%;
@@ -226,4 +226,4 @@ nav ul li a {
     .courses {
         grid-template-columns: repeat(2, 1fr);
     }
-} */
+}
